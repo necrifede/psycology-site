@@ -1,11 +1,12 @@
-import styles from './index.module.css';
+import { Expertise } from './Expertise';
 import { Presentation } from './Presentation';
+import styles from './index.module.css';
 
 export const Main = () => {
   return (
     <main className={styles.main}>
       <Presentation />
-      <section>Expertise</section>
+      <Expertise />
       <section>Contact</section>
     </main>
   );

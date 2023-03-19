@@ -1,0 +1,46 @@
+.expertise {
+  background-color: rgb(var(--color_17));
+}
+
+.expertise .titles {
+  margin: 55px 25px;
+}
+.expertise .titles h1 {
+  margin: 0 0 27px 0;
+  font-size: 1.75rem;
+}
+.expertise .titles h2 {
+  margin: 0 0 27px 0;
+  font-size: 1.1rem;
+}
+.expertise .titles h1 {
+  margin: 0 0 27px 0;
+}
+.expertise .description {
+  margin: 45px 25px;
+}
+
+.expertise .description p {
+  margin: 0 0 2rem 0;
+}
+
+.expertise div {
+  display: flex;
+  flex-direction: column;
+}
+.expertise div div button {
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 0.25rem;
+  background-color: rgb(var(--color_18));
+  color: white;
+  border: 0;
+  transition: 0.3s;
+}
+
+.expertise div div button:hover {
+  box-shadow: 3px 3px 2px rgb(var(--color_20));
+  cursor: pointer;
+  transition: 0.3s;
+}

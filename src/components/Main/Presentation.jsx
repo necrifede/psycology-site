@@ -5,7 +5,7 @@ export const Presentation = () => {
   return (
     <section className={styles.presentation}>
       <figure>
-        <img className={styles.fitimage} alt="Kamar image" src={kamarImg} />
+        <img className={styles.fitimage} alt="Kamar with a horse" src={kamarImg} />
       </figure>
       <article>
         <header>

@@ -11,7 +11,7 @@
   - [x] implement Header
   - [x] implement Main
   - [x] implement Main/Presentation
-  - [ ] implement Main/Expertise
+  - [x] implement Main/Expertise
   - [ ] implement Main/Prices
   - [ ] implement Main/Contacts
   - [x] implement Footer
