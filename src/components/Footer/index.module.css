@@ -1,0 +1,27 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+  font-size: 0.875rem;
+  background-color: rgb(var(--color_20));
+  color: rgb(var(--color_16));
+  word-break: keep-all;
+}
+
+.footer div {
+  width: 300px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    height: 3rem;
+  }
+  .footer div {
+    width: 100%;
+  }
+}

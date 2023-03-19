@@ -1,0 +1,29 @@
+.navigation {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.5rem;
+  color: rgb(var(--color_20));
+}
+
+.navigation span {
+  padding: 0 2rem;
+  font-size: 1.25rem; /* 20px */
+  font-weight: bold;
+}
+
+.navigation .menulist {
+  display: none
+}
+
+@media screen and (min-width: 768px) {
+
+  .navigation .menulist {
+    list-style-type: none;
+    display: flex;
+    gap: 0.5rem;
+    padding: 0 1rem;
+  }
+}
