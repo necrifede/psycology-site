@@ -28,7 +28,7 @@
   font-family: 'FuturaLT-Light', 'Roboto', sans-serif;
   /* font-size: 16px; */
   line-height: 1.8rem;
-
+  color: rgb(var(--color_19));
 }
 
 /* 

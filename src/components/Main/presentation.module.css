@@ -1,5 +1,4 @@
 .presentation {
-  color: rgb(var(--color_19));
 }
 
 .fitimage {
@@ -9,7 +8,7 @@
 }
 
 .presentation article {
-  margin: 45px 20px;
+  margin: 45px 25px;
 }
 
 .presentation article header h1 {

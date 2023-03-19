@@ -6,10 +6,24 @@
 
 - [x] Setup the new project
 - [x] Find html pattern
-- [ ] pass it to tool react
+- [-] Implement mobile view
   - [x] Pass home page
-  - [ ] create prices section
-- [ ] content
+  - [x] implement Header
+  - [x] implement Main
+  - [x] implement Main/Presentation
+  - [ ] implement Main/Expertise
+  - [ ] implement Main/Prices
+  - [ ] implement Main/Contacts
+  - [x] implement Footer
+- [ ] Implement Desktop view
+  - [x] Pass home page
+  - [x] implement Header
+  - [ ] implement Main
+  - [ ] implement Main/Presentation
+  - [ ] implement Main/Expertise
+  - [ ] implement Main/Prices
+  - [ ] implement Main/Contacts
+  - [ ] implement Footer
 - [ ] test it
 - [ ] deploy
 
