@@ -13,7 +13,7 @@
   - [x] implement Main/Presentation
   - [x] implement Main/Expertise
   - [ ] implement Main/Prices
-  - [ ] implement Main/Contacts
+  - [ ] implement Main/Contact
   - [x] implement Footer
 - [ ] Implement Desktop view
   - [x] Pass home page
