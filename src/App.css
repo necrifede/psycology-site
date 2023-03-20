@@ -1,0 +1,9 @@
+.separatorline {
+  width: 60px;
+  height: 5px;
+  border-top: 3px solid rgb(var(--color_18));
+  position: relative;
+  transform-origin: center 1px;
+  box-sizing: border-box;
+  padding: 0 0 26px 0;
+}

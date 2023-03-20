@@ -1,0 +1,95 @@
+/* @font-face {
+  font-family: 'Opensans-Bold';
+  font-style: normal;
+  src: local('Opensans-Bold'), url(./fonts/OpenSans-Bold.ttf) format('truetype');
+} */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  size-adjust: 100%;
+  src: local('Roboto'), url(@/fonts/Roboto-Light.ttf) format('truetype');
+  font-weight: light;
+}
+
+@font-face {
+  font-family: 'FuturaLT-Light';
+  font-style: normal;
+  size-adjust: 100%;
+  src: local('FuturaLT-Light'), url(@/fonts/Futura-Lt-Light.ttf) format('truetype');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  --debugger: 1px solid red;
+  --debuggerb: 1px solid blue;
+  /* border: 1px solid blue; */
+  font-family: 'FuturaLT-Light', 'Roboto', sans-serif;
+  /* font-size: 16px; */
+  line-height: 1.8rem;
+  color: rgb(var(--color_19));
+}
+
+/* 
+-0 normal normal normal 100px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif
+-1 normal normal normal  16px/1.4em  din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+-2 normal normal normal  24px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-3 normal normal normal 120px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-4 normal normal normal  40px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-5 normal normal normal  24px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-6 normal normal normal  22px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-7 normal normal normal  17px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-8 normal normal normal  16px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+-9 normal normal normal  14px/1.4em futura-lt-w01-light,futura-lt-w05-light,sans-serif;
+10 normal normal normal  12px/1.4em  din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+*/
+
+:root {
+  --color_0: 255, 255, 255;
+  --color_1: 255, 255, 255;
+  --color_2: 0, 0, 0;
+  --color_3: 237, 28, 36;
+  --color_4: 0, 136, 203;
+  --color_5: 255, 203, 5;
+  --color_6: 114, 114, 114;
+  --color_7: 176, 176, 176;
+  --color_8: 255, 255, 255;
+  --color_9: 114, 114, 114;
+  --color_10: 176, 176, 176;
+  --color_11: 255, 255, 255;
+  --color_12: 242, 242, 242;
+  --color_13: 201, 201, 201;
+  --color_14: 153, 153, 151;
+  --color_15: 65, 65, 65;
+  --color_16: 240, 242, 242;
+  --color_17: 213, 225, 223;
+  --color_18: 163, 184, 180;
+  --color_19: 114, 130, 127;
+  --color_20: 66, 71, 70;
+  --color_21: 232, 246, 250;
+  --color_22: 202, 225, 232;
+  --color_23: 149, 182, 192;
+  --color_24: 99, 125, 133;
+  --color_25: 61, 77, 82;
+  --color_26: 207, 223, 232;
+  --color_28: 121, 138, 148;
+  --color_29: 87, 101, 110;
+  --color_30: 45, 66, 79;
+  --color_31: 255, 235, 230;
+  --color_32: 245, 199, 186;
+  --color_33: 219, 160, 143;
+  --color_34: 163, 118, 104;
+  --color_35: 133, 95, 84;
+}
+
+/* main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // place-items: center;
+  max-width: 800px;
+  margin-top: 0 auto;
+  font-family: system-ui;
+} */
